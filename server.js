@@ -3,6 +3,8 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
+// check if this works--> it works!
+
 const port = 3000;
 
 app.use(express.static(path.join(__dirname, './static')));
